@@ -4,7 +4,7 @@ async function getIPs(){
     const ips = new Set();
     const regex = /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/g;
     
-    conn.createDataChannel("");
+    // conn.createDataChannel("");
     
     const {sdp} = await conn.createOffer();
     
